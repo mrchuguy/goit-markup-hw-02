@@ -1,7 +1,123 @@
-.logo-link {
-	/* font-family: "Raleway", sans-serif; */
+/* CSS variables */
+:root {
+	--main-text-color: #212121;
+	--hover-link-color: #2196f3;
+	--white: #ffffff;
+	--dark-bg: #2f303a;
+}
+/* Global styles */
+body {
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	color: var(--main-text-color);
+	width: 1600px;
+	margin: 0 auto;
+}
+.link {
+	color: var(--main-text-color);
+	outline: none;
+	text-decoration: none;
+}
+.link:hover,
+.link:focus {
+	color: var(--hover-link-color);
+}
+.btn {
+	cursor: pointer;
+}
+.list {
+	list-style-type: none;
+}
+/* Header styles */
+.header {
+	/* position: absolute; */
+	width: 1600px;
+	/* height: 80px; */
+	left: 0px;
+	top: 0px;
+	background: var(--white);
+}
+.logo {
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+	/* identical to box height */
+	letter-spacing: 0.03em;
+}
+.logo:hover,
+.logo:focus {
+	color: var(--main-text-color);
+}
+.logo-color {
+	color: var(--hover-link-color);
+}
+.nav-list {
+	padding: 0;
+}
+.nav-link {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1;
+	letter-spacing: 0.02em;
+}
+.header-mail,
+.header-phone {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.02em;
+	color: #757575;
+}
+/* Main section styles */
+/* Order section */
+.order-section {
+	background: var(--dark-bg);
+	/* position: absolute; */
+	width: 1600px;
+	height: 600px;
+	left: 0px;
+	top: 80px;
 }
 
-.main {
-	/* font-family: "Roboto", sans-serif; */
+.order-btn {
+	/* position: absolute; */
+	width: 200px;
+	height: 50px;
+	/* left: 700px;
+	top: 430px; */
+	background: var(--hover-link-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border: none;
+	border-radius: 4px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	/* identical to box height, or 188% */
+	text-align: center;
+	letter-spacing: 0.06em;
+	color: var(--white);
 }
+.filter-btn {
+	/* position: absolute; */
+	background: #f5f4fa;
+	border: none;
+	border-radius: 4px;
+	font-family: inherit;
+	font-style: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	/* identical to box height, or 162% */
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--main-text-color);
+}
+.filter-btn:hover,
+.filter-btn:focus {
+	background: #2196f3;
+	/* shadow-middle */
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+	color: var(--white);
+}
+/* Footer styles */ ;
