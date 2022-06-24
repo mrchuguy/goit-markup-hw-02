@@ -70,6 +70,9 @@ body {
 /* Main section styles */
 /* Order section */
 .order-section {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
 	background: var(--dark-bg);
 	width: 1600px;
 	height: 600px;
@@ -84,9 +87,10 @@ body {
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: var(--white);
-	margin: 0;
+	margin: 200px 0 0 0;
 }
 .order-btn {
+	display: block;
 	width: 200px;
 	height: 50px;
 	background: var(--hover-link-color);
@@ -99,6 +103,7 @@ body {
 	text-align: center;
 	letter-spacing: 0.06em;
 	color: var(--white);
+	margin-top: 30px;
 }
 .order-btn:hover {
 	background: #188ce8;
@@ -147,6 +152,7 @@ body {
 	/* material shadow v1 */
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
+	margin: 30px;
 }
 .employee-photo {
 	width: 270px;
@@ -202,18 +208,26 @@ body {
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
+	margin-left: 24px;
 }
 .project-type {
 	font-size: 16px;
 	line-height: 1.9;
 	letter-spacing: 0.03em;
 	color: var(--grey-text-color);
+	margin-left: 24px;
 }
 /* Footer styles */
 .footer {
+	height: 252px;
 	background: var(--dark-bg);
 }
 .footer-logo {
+	color: var(--white);
+	margin-left: 215px;
+}
+.footer-logo:hover,
+.footer-logo:focus {
 	color: var(--white);
 }
 .studio-address {
@@ -221,6 +235,9 @@ body {
 	font-size: 14px;
 	line-height: 1.7;
 	letter-spacing: 0.03em;
+	margin-top: 20px;
+	margin-left: 215px;
+	margin-bottom: 60px;
 }
 .address {
 	color: var(--white);
