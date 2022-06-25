@@ -13,7 +13,6 @@ body {
 	font-style: normal;
 	color: var(--main-text-color);
 	background: var(--white);
-	width: 1600px;
 	margin: 0 auto;
 }
 .link {
@@ -34,7 +33,6 @@ body {
 }
 /* Header styles */
 .header {
-	width: 1600px;
 	/* height: 80px; */
 	border-bottom: 1px solid #ececec;
 }
@@ -42,7 +40,7 @@ body {
 	font-family: "Raleway", sans-serif;
 	font-weight: 700;
 	font-size: 26px;
-	line-height: 1.2;
+	line-height: 1.19;
 	letter-spacing: 0.03em;
 }
 .logo:hover,
@@ -56,14 +54,14 @@ body {
 .nav-link {
 	font-weight: 500;
 	font-size: 14px;
-	line-height: 1;
+	line-height: 1.14;
 	letter-spacing: 0.02em;
 }
 .header-mail,
 .header-phone {
 	font-weight: 500;
 	font-size: 14px;
-	line-height: 16px;
+	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: var(--grey-text-color);
 }
@@ -74,7 +72,6 @@ body {
 	align-items: center;
 	flex-direction: column;
 	background: var(--dark-bg);
-	width: 1600px;
 	height: 600px;
 }
 .order-title {
@@ -122,7 +119,7 @@ body {
 }
 .peculiarities-text {
 	font-size: 14px;
-	line-height: 1.7;
+	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: var(--grey-text-color);
 }
@@ -160,13 +157,13 @@ body {
 .employee-name {
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 1.2;
+	line-height: 1.19;
 	text-align: center;
 	letter-spacing: 0.03em;
 }
 .profession {
 	font-size: 16px;
-	line-height: 1.2;
+	line-height: 1.19;
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--grey-text-color);
@@ -200,9 +197,7 @@ body {
 	border: 1px solid #eeeeee;
 	margin: 30px;
 }
-.roject-list-img {
-	width: 100%;
-}
+
 .project-title {
 	font-weight: 700;
 	font-size: 18px;
@@ -212,7 +207,7 @@ body {
 }
 .project-type {
 	font-size: 16px;
-	line-height: 1.9;
+	line-height: 1.88;
 	letter-spacing: 0.03em;
 	color: var(--grey-text-color);
 	margin-left: 24px;
@@ -233,7 +228,7 @@ body {
 .studio-address {
 	font-style: normal;
 	font-size: 14px;
-	line-height: 1.7;
+	line-height: 1.71;
 	letter-spacing: 0.03em;
 	margin-top: 20px;
 	margin-left: 215px;
